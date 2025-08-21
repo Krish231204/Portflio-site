@@ -1,27 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Krish - Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Krish — Portfolio</title>
+  <meta name="description" content="Krish — B.Tech CSE, 3rd Year at SRM University. Portfolio, skills, and contact." />
 </head>
 <body>
-  <h1>Hi, I'm Krish 👋</h1>
-  <p>B.Tech CSE | Aspiring Intern</p>
-  
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="https://github.com/Krish231204/Tech-Geeks-Round-3">Tech Geeks Round 3</a></li>
-    <li><a href="https://github.com/Krish231204/Tech-geeks-round-4">Tech Geeks Round 4</a></li>
-  </ul>
+  <header>
+    <h1>Hi, I'm Krish 👋</h1>
+    <p>B.Tech CSE | 3rd Year | SRM University | Aspiring Intern</p>
+  </header>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Python (Basics)</li>
-    <li>C / C++</li>
-    <li>HTML & CSS</li>
-    <li>Flask (Python Web Framework)</li>
-    <li>Git & GitHub</li>
-    <li>OODP (Object Oriented Design & Programming)</li>
-    <li>IoT (Internet of Things)</li>
-  </ul>
+  <main>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://github.com/Krish231204/Tech-Geeks-Round-3">Tech Geeks Round 3</a></li>
+        <li><a href="https://github.com/Krish231204/Tech-geeks-round-4">Tech Geeks Round 4</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Programming Skills</h2>
+      <ul>
+        <li>Python (Basics)</li>
+        <li>C / C++</li>
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript</li>
+        <li>Flask (Python Web Framework)</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Subjects</h2>
+      <ul>
+        <li>OODP (Object Oriented Design &amp; Programming)</li>
+        <li>IoT (Internet of Things)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:krish.231204@gmail.com">krish.231204@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Krish231204">github.com/Krish231204</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/krish-%F0%9F%8D%81-12bb29297/">linkedin.com/in/krish-🍁-12bb29297</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Krish</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
 </body>
 </html>
